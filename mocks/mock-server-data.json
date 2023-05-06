@@ -1,0 +1,67 @@
+{
+  "title": ["The Shawshank Redemption", "The Godfather", "The Dark Knight", "The Lord of the Rings: The Return of the King", "Pulp Fiction"],
+  "description": ["Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.", "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.", "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.", "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."],
+  "releaseDate": ["1994-10-14", "1972-03-24", "2008-07-18", "2003-12-17", "1994-10-14"],
+  "genre": ["Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Horror",
+    "Family",
+    "Romance",
+    "SciFi",
+    "Thriller"
+  ],
+  "year": [1994, 1972, 2008, 2003, 1994],
+  "rating": [9.3, 9.2, 9.0, 8.9, 8.9],
+  "preview": ["https://www.youtube.com/watch?v=6hB3S9bIaco", "https://www.youtube.com/watch?v=sY1S34973zA", "https://www.youtube.com/watch?v=EXeTwQWrcwY", "https://www.youtube.com/watch?v=r5X-hFf6Bwo", "https://www.youtube.com/watch?v=s7EdQ4FqbhY"],
+  "video": ["https://www.youtube.com/watch?v=6hB3S9bIaco", "https://www.youtube.com/watch?v=sY1S34973zA", "https://www.youtube.com/watch?v=EXeTwQWrcwY", "https://www.youtube.com/watch?v=r5X-hFf6Bwo", "https://www.youtube.com/watch?v=s7EdQ4FqbhY"],
+  "actors": [
+    ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    ["Marlon Brando", "Al Pacino", "James Caan"],
+    ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
+  ],
+  "director": ["Frank Darabont", "Francis Ford Coppola", "Christopher Nolan", "Peter Jackson", "Quentin Tarantino"],
+  "duration": [142, 175, 152, 201, 154],
+  "commentsCount": [123, 456, 789, 1011, 1213],
+  "user": [{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "avatarPath": "https://www.example.com/avatar.jpg"
+  }, {
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "avatarPath": "https://www.example.com/avatar.jpg"
+  }, {
+    "name": "Bob Johnson",
+    "email": "bobjohnson@example.com",
+    "avatarPath": "https://www.example.com/avatar.jpg"
+  }, {
+    "name": "Samantha Brown",
+    "email": "samanthabrown@example.com",
+    "avatarPath": "https://www.example.com/avatar.jpg"
+  }, {
+    "name": "Mike Davis",
+    "email": "mikedavis@example.com",
+    "avatarPath": "https://www.example.com/avatar.jpg"
+  }],
+  "poster": ["https://www.imdb.com/title/tt0111161/mediaviewer/rm3877287168", "https://www.imdb.com/title/tt0068646/mediaviewer/rm3893227520", "https://www.imdb.com/title/tt0468569/mediaviewer/rm3571351040", "https://www.imdb.com/title/tt0167260/mediaviewer/rm3893227520", "https://www.imdb.com/title/tt0110912/mediaviewer/rm3893227520"],
+  "background": [{
+    "image": "https://www.example.com/background1.jpg",
+    "color": "#000000"
+  }, {
+    "image": "https://www.example.com/background2.jpg",
+    "color": "#111111"
+  }, {
+    "image": "https://www.example.com/background3.jpg",
+    "color": "#222222"
+  }, {
+    "image": "https://www.example.com/background4.jpg",
+    "color": "#333333"
+  }, {
+    "image": "https://www.example.com/background5.jpg",
+    "color": "#444444"
+  }]
+}
