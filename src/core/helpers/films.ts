@@ -1,9 +1,8 @@
 import {Film} from '../../types/film.type.js';
-import {Genre} from '../../types/genre.enum.js';
 
 export const createFilm = (filmData: string): Film => {
   const [
-    userName, email, avatarPath, title, description, releaseDate, genre, year, rating, preview, video, actors, director, duration, commentsCount, poster, backgroundImage, backgroundColor
+    title, description, releaseDate, genre, year, rating, preview, video, actors, director, duration, commentsCount, poster, backgroundImage, backgroundColor, userName, email, avatarPath
   ] = filmData.replace('\n', '').split('\t');
 
   const user = {
@@ -14,7 +13,7 @@ export const createFilm = (filmData: string): Film => {
     title,
     description,
     releaseDate: new Date(releaseDate),
-    genre: Genre[genre as keyof typeof Genre],
+    genre,
     year: +year,
     rating: +rating,
     preview,

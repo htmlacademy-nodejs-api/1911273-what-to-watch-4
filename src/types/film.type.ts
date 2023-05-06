@@ -1,7 +1,6 @@
 import { User } from './user.type';
-import { Genre } from './genre.enum';
 
-type Background = {
+export type Background = {
     image: string,
     color: string
 }
@@ -10,7 +9,7 @@ export type Film = {
     title: string;
     description: string;
     releaseDate: Date;
-    genre: Genre;
+    genre: string;
     year: number;
     rating: number;
     preview: string;
