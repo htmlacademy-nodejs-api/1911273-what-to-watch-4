@@ -10,4 +10,10 @@ plugins:
   - "@typescript-eslint"
 extends:
   - "plugin:@typescript-eslint/recommended"
-  - "htmlacademy/node"
+rules:
+  "@typescript-eslint/no-empty-interface": [
+    "warn",
+    {
+      "allowSingleExtends": false
+    }
+  ]
