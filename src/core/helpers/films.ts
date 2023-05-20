@@ -2,11 +2,11 @@ import {Film} from '../../types/film.type.js';
 
 export const createFilm = (filmData: string): Film => {
   const [
-    title, description, releaseDate, genre, year, rating, preview, video, actors, director, duration, commentsCount, poster, backgroundImage, backgroundColor, userName, email, avatarPath
+    title, description, releaseDate, genre, year, rating, preview, video, actors, director, duration, commentsCount, poster, backgroundImage, backgroundColor, username, email, avatarPath
   ] = filmData.replace('\n', '').split('\t');
 
   const user = {
-    name: userName, email, avatarPath
+    username, email, avatarPath
   };
 
   return {

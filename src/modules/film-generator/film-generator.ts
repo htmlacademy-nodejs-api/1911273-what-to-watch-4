@@ -28,7 +28,7 @@ export default class FilmGenerator implements FilmGeneratorInterface {
     const background = getRandomItem<Background>(this.mockData.backgrounds);
 
     const {image: backgroundImage, color: backgroundColor} = background;
-    const {name: userName, email, avatarPath} = user;
+    const {username: userName, email, avatarPath} = user;
 
     return [
       title, description, releaseDate,
